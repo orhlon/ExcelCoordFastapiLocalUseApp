@@ -20,8 +20,8 @@ async def upload_form():
             <h2>Итоговый файл с координатами появится на вашем рабочем столе.</h2>
             <h2>Программа сравнивает города в первом столбце. Координаты добавлются во 2 и 3 столбцы, вне зависимости от их содержимого.</h2>
             <h2>Если в итоговом файле присутствуют города с пустыми координатами, значит эти города необходимо добавить в базу вручную.</h2>
-            <h2>Базу можно скачать по ссылке.</h2>
-            <a href="https://github.com/orhlon/ExcelCoordFastapiLocalUseApp/raw/refs/heads/main/BazaCoordinat.xlsx">База координат</a>
+            <h2>Базу можно скачать по ссылке 
+            <a href="https://github.com/orhlon/ExcelCoordFastapiLocalUseApp/raw/refs/heads/main/BazaCoordinat.xlsx">База координат</a> </h2>
             <form action="/upload/" method="post" enctype="multipart/form-data"></h2>
                 <input type="file" name="file1"><br><br>
                 <input type="file" name="file2"><br><br>
