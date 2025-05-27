@@ -22,7 +22,9 @@ async def upload_form():
             <h2>Если в итоговом файле присутствуют города с пустыми координатами, значит эти города необходимо добавить в базу вручную.</h2>
             <h2>Базу можно скачать по ссылке </h2>
             <a href="https://github.com/orhlon/ExcelCoordFastapiLocalUseApp/raw/refs/heads/main/BazaCoordinat.xlsx">База координат</a>
-            <h2>   </h2>
+            <a href="https://github.com/orhlon/ExcelCoordFastapiLocalUseApp/raw/refs/heads/main/BazaCoordinat.xlsx">База координат</a>
+            <a href="https://github.com/orhlon/ExcelCoordFastapiLocalUseApp/raw/refs/heads/main/BazaCoordinat.xlsx">База координат</a>
+            <a href="https://github.com/orhlon/ExcelCoordFastapiLocalUseApp/raw/refs/heads/main/BazaCoordinat.xlsx">База координат</a>
             <form action="/upload/" method="post" enctype="multipart/form-data"></h2>
                 <input type="file" name="file1"><br><br>
                 <input type="file" name="file2"><br><br>
