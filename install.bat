@@ -18,7 +18,5 @@ echo "Запустить run.bat, затем запустить ExcelAddCoordsAp
 (
 echo uvicorn ExcelAddCoordsApp:app --reload
 )>> "C:\Users\%USERNAME%\Desktop\ExcelAddCoordsApp\run.bat"
-curl "https://github.com/orhlon/ExcelCoordFastapiLocalUseApp/raw/refs/heads/main/BazaCoordinat.xlsx" -o "%TEMP%\BazaCoordinat.xlsx"
-copy %TEMP%\BazaCoordinat.xlsx C:\Users\%USERNAME%\Desktop\ExcelAddCoordsApp\BazaCoordinat.xlsx
 copy %TEMP%\ExcelAddCoordsApp.py C:\Users\%USERNAME%\Desktop\ExcelAddCoordsApp\logic\ExcelAddCoordsApp.py
 pip install fastapi uvicorn openpyxl geopy python-multipart
