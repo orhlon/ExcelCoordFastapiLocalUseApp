@@ -1,1 +1,1 @@
-Download and run install file.
+Download and run install.bat file.
